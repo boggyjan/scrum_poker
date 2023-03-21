@@ -31,10 +31,10 @@
   <meta property="og:site_name" content="Scrum Poker">
   <meta property="og:image" content="http://app.boggy.tw/scrum_poker/assets/images/sns_share_img.jpg">
   
-  <link rel="stylesheet" href="//static.boggy.tw/vendor/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//static.boggy.tw/vendor/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//static.boggy.tw/vendor/OwlCarousel2/2.2.0/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="//static.boggy.tw/vendor/OwlCarousel2/2.2.0/assets/owl.theme.green.min.css">
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="libs/OwlCarousel2/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="libs/OwlCarousel2/assets/owl.theme.green.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <link rel="stylesheet" href="assets/css/app.css?v=<?= filemtime('assets/css/app.css'); ?>">
@@ -79,10 +79,10 @@
 
   <div class="copyright">Copyright © <?= date("Y"); ?> Boggy Jang. All rights reserved.</div>
   
-  <script src="//static.boggy.tw/vendor/jquery/jquery-3.1.1.min.js"></script>
-  <script src="//static.boggy.tw/vendor/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="//static.boggy.tw/vendor/vue.js/2.1.10/vue.min.js"></script>
-  <script src="//static.boggy.tw/vendor/OwlCarousel2/2.2.0/owl.carousel.min.js"></script>
+  <script src="libs/jquery-3.1.1.min.js"></script>
+  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="libs/vue.min.js"></script>
+  <script src="libs/OwlCarousel2/owl.carousel.min.js"></script>
   <script src="assets/js/app.php?v=<?= filemtime('assets/js/app.php'); ?>"></script>
 </body>
 </html>
